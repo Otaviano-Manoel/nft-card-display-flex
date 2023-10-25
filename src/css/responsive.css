@@ -2,15 +2,18 @@
     .background {
         height: 93%;
     }
+
     .card .person {
         padding: 10px 0px 5px 0px;
     }
+
     .attribution {
         display: flex;
         height: 7%;
         flex-direction: column;
     }
-    .attribution span{
+
+    .attribution span {
         font-size: 18px;
         margin-bottom: 5px;
     }
