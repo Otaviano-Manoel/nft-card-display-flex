@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    height: 100vh;
+}
+
+.background {
+    background-color: hsl(217, 54%, 11%);
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 325px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card .logo {
+    background-image: url(../images/image-equilibrium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 275px;
+    border-radius: 20px;
+}
+
+.card .logo .inspector-logo {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.card .logo .inspector-logo:hover {
+    background-color: hsl(178, 100%, 50%, 0.6);
+    opacity: 1;
+}
+
+.card .logo .inspector-logo .logo-view {
+    height: 48px;
+    width: 48px;
+}
+
+.information .title {
+    margin: 20px 0px;
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.information .description {
+    color: hsl(215, 51%, 70%);
+    margin: 10px 0px;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+.card .date {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .date p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+.card .date .eth {
+    color: hsl(178, 100%, 50%);
+}
+
+.card .date .days {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.card .date p img {
+    margin-right: 5px;
+}
+
+.card .person {
+    margin: 5px;
+    border-top: 2px;
+    border-color: hsl(215, 32%, 27%);
+    border-style: solid;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.card .person .avatar {
+    border: 3px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: hsl(0, 0%, 100%);
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.card .person .creation-by {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+
+.card .person .creation-by .name {
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+.attribution {
+    display: flex;
+    height: 5%;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
