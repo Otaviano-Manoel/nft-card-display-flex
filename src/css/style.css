@@ -6,8 +6,10 @@ body {
 
 .background {
     background-color: hsl(217, 54%, 11%);
-    height: 95%;
+    min-height: 100vh;
+    max-height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -122,14 +124,11 @@ body {
 
 
 
-.attribution {
-    display: flex;
-    height: 5%;
-    font-size: 22px;
-    justify-content: center;
-    align-items: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
+.attribution{
+    margin-top: 25px;
+    bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
 }

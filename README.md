@@ -12,38 +12,42 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
 
 ### The challenge
 
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+
 ### Screenshot
-![Screenshot of desktop screen - 1440px](./src/images/Screenshot-desktop.png)
 
-![Screenshot of desktop screen - 1440px](./src/images/Screenshot-desktop-active.png)
-
-![Mobile screen screenshot - 375px](./src/images/screenshot-mobile.png)
-![Mobile screen screenshot - 375px](./src/images/Screenshot-mobile-active.png)
+![screen desktop](./src/images/screenshot-desktop.png)
+![screen hover desktop](./src/images/screenshot-hover-desktop.png)
+![screen mobile](./src/images/screenshot-mobile.png)
+![screen hover mobile](./src/images/screenshot-hover-mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/display-flex-NfpduQXUTE)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/display-flex-NfpduQXUTE)
+- Live Site URL: [Live site URL here](https://otaviano-manoel.github.io/nft-card-display-flex/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flex
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/></code>
+
 
 ### What I learned
 
-In this HTML with CSS project, I chose to improve my use of display: flex and its ways of aligning flexible elements.
+In this project, I practiced the use of display: flex, which is a great property for aligning and arranging child elements. I used this to center them in the middle of the screen.
 
-Alignment method applied in this project.
+I centered it using `display: flex` in the middle of the screen.
 ```css
 .background {
     display: flex;
@@ -52,19 +56,17 @@ Alignment method applied in this project.
 }
 ```
 
-Alignment method applied in my last project.
-```css
-main {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-```
-
 ### Continued development
 
-I will continue working on HTML and CSS projects to improve myself. And now I'm going to look for a challenge that requires greater mobile responsiveness.
+For my next project, I will seek to work on responsiveness. It's a property that styles a website differently for each screen resolution.
+
+### Useful resources
+
+- [W3Schools](https://www.w3schools.com/css/default.asp) - 
+I used W3Schools to clarify my doubts and I really liked their examples, which clarify how to use CSS properties.
+
+- [MDN Web Docs](https://developer.mozilla.org/pt-BR/) - I'd like you to get to know MDN Web Docs, which helped me a lot in understanding HTML tags.
 
 ## Author
-- Frontend Mentor - [@Otaviano Manoel](https://www.frontendmentor.io/profile/otaviano-manoel)
+
+- Frontend Mentor - [@Otaviano-Manoel](https://www.frontendmentor.io/profile/Otaviano-Manoel)
