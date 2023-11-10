@@ -2,8 +2,8 @@
 
 body {
     height: 100vh;
+    letter-spacing: 0.5px;
 }
-
 .background {
     background-color: hsl(217, 54%, 11%);
     min-height: 100vh;
@@ -16,8 +16,9 @@ body {
 
 .card {
     background-color: hsl(216, 50%, 16%);
-    width: 325px;
-    border-radius: 20px;
+    width: 335px;
+    height: 505px;
+    border-radius: 15px;
     padding: 20px;
 }
 
@@ -25,17 +26,19 @@ body {
     background-image: url(../images/image-equilibrium.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 275px;
-    border-radius: 20px;
+    height: 260px;
+    border-radius: 15px;
 }
 
 .card .logo .inspector-logo {
-    border-radius: 20px;
+    border-radius: 15px;
     width: 100%;
     height: 100%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    
     opacity: 0;
     cursor: pointer;
 }
@@ -46,27 +49,31 @@ body {
 }
 
 .card .logo .inspector-logo .logo-view {
-    height: 48px;
-    width: 48px;
+    height: 50px;
+    width: 50px;
+}
+
+.information{
+    padding-left: 5px;
 }
 
 .information .title {
-    margin: 20px 0px;
-    font-size: 25px;
+    margin: 15px 0px;
+    font-size: 20px;
     font-family: 'Outfit', sans-serif;
     color: hsl(0, 0%, 100%);
+    letter-spacing: 0.5px;
 }
 
 .information .description {
     color: hsl(215, 51%, 70%);
-    margin: 10px 0px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
 }
 
 .card .date {
-    margin: 10px 0px;
+    margin: 22px 3px 0px 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -74,7 +81,7 @@ body {
 .card .date p {
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
 }
@@ -93,42 +100,33 @@ body {
 }
 
 .card .person {
-    margin: 5px;
+    margin-top: 18px;
+
     border-top: 2px;
     border-color: hsl(215, 32%, 27%);
     border-style: solid;
-    padding: 10px 0px;
+
+    padding: 13px 4px;
     display: flex;
     align-items: center;
 }
 
 .card .person .avatar {
-    border: 3px;
+    border: 1px;
     border-radius: 50%;
     border-style: solid;
     border-color: hsl(0, 0%, 100%);
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
 }
 
 .card .person .creation-by {
-    font-size: 18px;
+    font-size: 14.5px;
     font-family: 'Outfit', sans-serif;
     color: hsl(215, 51%, 70%);
 }
 
 .card .person .creation-by .name {
     color: hsl(0, 0%, 100%);
-}
-
-
-
-.attribution{
-    margin-top: 25px;
-    bottom: 15px;
-    font-size: 20px;
-    text-align: center;
-    line-height: 30px;
-    color: white;
 }
