@@ -26,9 +26,7 @@ Users should be able to:
 ### Screenshot
 
 ![screen desktop](./src/images/screenshot-desktop.png)
-![screen hover desktop](./src/images/screenshot-hover-desktop.png)
 ![screen mobile](./src/images/screenshot-mobile.png)
-![screen hover mobile](./src/images/screenshot-hover-mobile.png)
 
 ### Links
 
